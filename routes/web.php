@@ -16,4 +16,24 @@ use Illuminate\Support\Facades\Route;
 // route collegata alla homepage
 Route::get('/', function () {
     return view('homepage');
-});
+})->name('home');
+
+// route collegata alla pagina comics
+Route::get('/comics', function () {
+    return view('comics');
+})->name('comics');
+
+// route collegata alla books
+Route::get('/books', function () {
+    return view('books');
+})->name('books');
+
+// route collegata alla manga
+Route::get('/manga', function () {
+    return view('manga');
+})->name('manga');
+
+// route collegata alla about
+Route::get('/about', function () {
+    return view('about');
+})->name('about');

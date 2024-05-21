@@ -4,19 +4,24 @@
             <h3>Logo Bello Bellissimo</h3>
             <ul class="d-flex gap-5">
                 <li>
-                    <a class="link-success" href="">Home</a>
+                    {{-- link che con il metodo route si collega alla pagina home --}}
+                    <a class="link-success" href="{{ route('home') }}">Home</a>
                 </li>
                 <li>
-                    <a class="link-success" href="">Comics</a>
+                    {{-- link che con il metodo route si collega alla pagina comics --}}
+                    <a class="link-success" href="{{ route('comics') }}">Comics</a>
                 </li>
                 <li>
-                    <a class="link-success" href="">Book</a>
+                    {{-- link che con il metodo route si collega alla pagina books --}}
+                    <a class="link-success" href="{{ route('books') }}">Books</a>
                 </li>
                 <li>
-                    <a class="link-success" href="">Manga</a>
+                    {{-- link che con il metodo route si collega alla pagina manga --}}
+                    <a class="link-success" href="{{ route('manga') }}">Manga</a>
                 </li>
                 <li>
-                    <a class="link-success" href="">About Us</a>
+                    {{-- link che con il metodo route si collega alla pagina about --}}
+                    <a class="link-success" href="{{ route('about') }}">About Us</a>
                 </li>
             </ul>
         </nav>
