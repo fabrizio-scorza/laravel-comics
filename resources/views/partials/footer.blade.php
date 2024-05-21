@@ -1,8 +1,9 @@
 <footer>
     <div class="container">
         <div class="row row-cols-2">
-            <div class="col">
+            <div class="col d-flex flex-column justify-content-between">
                 <img src="" alt="bella immagine ">
+                <p class="text-success">Powered with &hearts; by Sbriz</p>
             </div>
             <div class="col text-center">
                 <h3>Noi siamo Belli Bellissimi</h3>
