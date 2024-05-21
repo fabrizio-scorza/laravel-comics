@@ -13,6 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// route collegata alla homepage
 Route::get('/', function () {
     return view('homepage');
 });

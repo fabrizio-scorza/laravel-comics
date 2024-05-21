@@ -1,22 +1,22 @@
 <header>
     <div class="container">
-        <nav class="d-flex">
+        <nav class="d-flex justify-content-between pt-4">
             <h3>Logo Bello Bellissimo</h3>
-            <ul class="d-flex">
+            <ul class="d-flex gap-5">
                 <li>
-                    <a href="">Home</a>
+                    <a class="link-success" href="">Home</a>
                 </li>
                 <li>
-                    <a href="">Comics</a>
+                    <a class="link-success" href="">Comics</a>
                 </li>
                 <li>
-                    <a href="">Book</a>
+                    <a class="link-success" href="">Book</a>
                 </li>
                 <li>
-                    <a href="">Manga</a>
+                    <a class="link-success" href="">Manga</a>
                 </li>
                 <li>
-                    <a href="">About Us</a>
+                    <a class="link-success" href="">About Us</a>
                 </li>
             </ul>
         </nav>
