@@ -10,13 +10,13 @@
     @vite('resources/js/app.js')
 </head>
 
-<body class="d-flex flex-column vh-100">
+<body class="d-flex flex-column">
 
     {{-- includiamo il partial con dentro l'header --}}
 
     @include('partials.header')
 
-    <main class="flex-grow-1">
+    <main class="flex-grow-1 py-5">
         {{-- inseriamo la parte di contenuto delle varie pagine --}}
         @yield('content')
     </main>
