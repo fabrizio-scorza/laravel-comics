@@ -20,7 +20,11 @@ Route::get('/', function () {
 
 // route collegata alla pagina comics
 Route::get('/comics', function () {
-    return view('comics');
+    // recuperiamo l'array dal file comics.php
+    $comics = config('comics');
+
+    // ritorniamo la vista con i dati aggregati dalla funzione compact
+    return view('comics', compact('comics'));
 })->name('comics');
 
 // route collegata alla books
